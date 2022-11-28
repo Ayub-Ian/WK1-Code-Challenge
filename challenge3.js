@@ -80,7 +80,7 @@ function calculateTax() {
     //calculate net salary
     netSalary = basicSalary - (totalNhif + totalPaye);
   
-    //prints out the values 
+
     //prints the value as currency(with commas)
     document.getElementById("gross").innerHTML = `KES ${grossPay.toLocaleString()}`
     document.getElementById("paye").innerHTML = `KES ${totalPaye.toLocaleString()}`
