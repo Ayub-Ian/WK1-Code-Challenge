@@ -1,6 +1,7 @@
 function getGrade() {
     //get user input of marks
     let marks = document.getElementById("marks").value;
+
     let grade;
   
     //ensure marks is between 0 and 100
