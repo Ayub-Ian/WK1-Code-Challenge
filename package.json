@@ -1,0 +1,15 @@
+{
+  "name": "wk1-code-challenge",
+  "version": "1.0.0",
+  "description": "week 1 javascript code challenge",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "challenge"
+  ],
+  "author": "Ian Ayub",
+  "license": "ISC"
+}

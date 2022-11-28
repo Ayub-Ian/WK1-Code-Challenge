@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WK1 CODE CHALLENGE</title>
+  </head>
+  <body>
+
+    <h1>Challenge 1: Student Grade Generator</h1>
+    <input type="text" name="marks" id="marks" placeholder="Enter students marks">
+    <button onclick="getGrade()">Generate Grade</button>
+    <p>Grade: <p id="grade"></p></p>
+
+    <h1>Challenge 2: Speed Detector</h1>
+    <input type="text" name="speed" id="speed" placeholder="Enter car speed">
+    <button onclick="calculateSpeed()">Calculate Limit</button>
+    <p>Response: <p id="limit"></p></p>
+
+    <h1>Challenge 3: Net Salary Calculator</h1>
+    <input
+      type="text"
+      name="basic"
+      id="basic"
+      placeholder="Enter basic salary"
+    />
+    <input type="text" name="benefits" id="benefits" placeholder="Enter benefits" />
+
+    <button onclick="calculateTax()">Calculate Tax</button>
+    <p
+    >GROSS:
+    <p id="gross"></p
+  ></p>
+
+    <p>NHIF:
+      <p id="nhif"></p
+    ></p>
+    <p
+      >PAYE:
+      <p id="paye"></p
+    ></p>
+  
+    <p
+      >NSSF:
+      <p id="nssf"></p
+    ></p>
+    <p
+      >NET:
+      <p id="net"></p
+    ></p>
+
+   
+    <script src="./challenge1.js"></script>
+    <script src="./challenge2.js"></script>
+    <script src="./challenge3.js"></script>
+  </body>
+</html>
