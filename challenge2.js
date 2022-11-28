@@ -14,4 +14,5 @@ function calculateSpeed() {
         console.log(`Points: ${demerit}`)
         document.getElementById('limit').innerHTML = `Points ${demerit}`
     }
+    
     }
