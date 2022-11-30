@@ -28,9 +28,11 @@ Running the application is very straight forward. You can use the following step
 
 - You could fork into your own account by clicking on the top right corner of this page there is a button labelled ``Fork`` or cloning the project to your local environment using 
 
+- Navigate to your terminal and run the command below
+
       git clone https://github.com/Ayub-Ian/WK1-Code-Challenge/
       
-- Once done to run the application and interact with it
+- Once cloning is done, to run the application and interact with it
       
       cd WK1-Code-Challenge
       npm start
@@ -38,6 +40,9 @@ Running the application is very straight forward. You can use the following step
 ### Alternative Two
 
 - Run the ``index.html`` file on your default browser.
+- Open Chrome browser
+- Choose ``Open file...``
+- From the ``File menu``, navigate to the directory where this project is located, and open the ``index.html`` file
 
 
 # Author
